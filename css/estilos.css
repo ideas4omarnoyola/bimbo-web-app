@@ -329,6 +329,12 @@ td:first-child {
     /* overflow: hidden; */
 }
 
+@media screen and (max-width: 465px) {
+    .seccion{
+        padding: 30px 10px;
+    }
+}
+
 .seccion_login {
     background-image: url(../img/login.jpg);
     background-size: cover;
