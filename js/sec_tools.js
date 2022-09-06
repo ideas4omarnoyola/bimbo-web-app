@@ -26,7 +26,7 @@ function activaSeccionTools() {
 
 
                 Swal.fire({
-                    title: 'Handheld (HHC)',
+                    title: 'Distribution Agreement',
                     html: '<iframe id="pdfFrame" src="./docs/Distribution_Agreement.pdf#toolbar=0" type="application/pdf" style="min-height:80vh; width:100%"></iframe>',
                     showCloseButton: true,
                     showConfirmButton: false,
