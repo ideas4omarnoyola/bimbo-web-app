@@ -26,15 +26,17 @@ function activaSeccionTools() {
 
 
                 Swal.fire({
-                    title: 'Distribution Agreement',
-                    html: '<iframe id="pdfFrame" src="./docs/Distribution_Agreement.pdf#toolbar=0" type="application/pdf" style="min-height:80vh; width:100%"></iframe>',
+                    title: 'Aramark Order Form',
+                    html: '<iframe id="pdfFrame" src="./docs/Aramark_Order_Form.pdf#toolbar=0" type="application/pdf" style="min-height:80vh; width:100%"></iframe>',
                     showCloseButton: true,
                     showConfirmButton: false,
-                    heightAuto: false,
+                    heightAuto: true,
                     width: '100%',
                     background: '#f3f3f3',
                     backdrop: `rgb(0 0 0 / 60%)`
                 });
+
+                http://docs.google.com/gview?url=&embedded=true
 
                 // $('#pdfFrame').hide();
 
@@ -52,12 +54,13 @@ function activaSeccionTools() {
                 break;
             case 2:
                 // window.open('http://docs.google.com/viewer?url=' + laURL + 'docs/Handheld_(HHC).pdf');
+                
                 Swal.fire({
-                    title: 'Handheld (HHC)',
-                    html: '<iframe id="pdfFrame" src="./docs/Handheld_(HHC).pdf#toolbar=0" type="application/pdf" style="min-height:80vh; width:100%"></iframe>',
+                    title: 'Distribution Agreement',
+                    html: '<iframe id="pdfFrame" src="./docs/Distribution_Agreement.pdf#toolbar=0" type="application/pdf" style="min-height:80vh; width:100%"></iframe>',
                     showCloseButton: true,
                     showConfirmButton: false,
-                    heightAuto: true,
+                    heightAuto: false,
                     width: '100%',
                     background: '#f3f3f3',
                     backdrop: `rgb(0 0 0 / 60%)`
@@ -91,24 +94,168 @@ function activaSeccionTools() {
                     backdrop: `rgb(0 0 0 / 60%)`
                 });
                 break;
-            // case 4:
+            case 4:
+                // window.open('docs/ION_Coaching.pdf');
+                // window.open('http://docs.google.com/viewer?url=' + laURL + 'docs/ION_Coaching.pdf');
+                Swal.fire({
+                    title: 'ION Video 1 – Route Summary Page Overview',
+                    html: '<video id="vid1" width="100%" class="video" autoplay playsinline controls="true" controlsList="nodownload">' +
+                    '<source src="docs/IONVideo1.mp4" type="video/mp4">' +
+                    '</video>',
+                    showCloseButton: true,
+                    showConfirmButton: false,
+                    heightAuto: true,
+                    width: '100%',
+                    background: '#f3f3f3',
+                    backdrop: `rgb(0 0 0 / 60%)`
+                });
+                break;
+            case 5:
+                // window.open('docs/ION_Coaching.pdf');
+                // window.open('http://docs.google.com/viewer?url=' + laURL + 'docs/ION_Coaching.pdf');
+                Swal.fire({
+                    title: 'ION Video 2 –  Route Summary Page',
+                    html: '<video id="vid2" width="100%" class="video" autoplay playsinline controls="true" controlsList="nodownload">' +
+                    '<source src="docs/IONVideo2.mp4" type="video/mp4">' +
+                    '</video>',
+                    showCloseButton: true,
+                    showConfirmButton: false,
+                    heightAuto: true,
+                    width: '100%',
+                    background: '#f3f3f3',
+                    backdrop: `rgb(0 0 0 / 60%)`
+                });
+                break;
+            case 6:
+                // window.open('docs/ION_Coaching.pdf');
+                // window.open('http://docs.google.com/viewer?url=' + laURL + 'docs/ION_Coaching.pdf');
+                Swal.fire({
+                    title: 'ION Video 3 – Store Summary Page',
+                    html: '<video id="vid3" width="100%" class="video" autoplay playsinline controls="true" controlsList="nodownload">' +
+                    '<source src="docs/IONVideo3.mp4" type="video/mp4">' +
+                    '</video>',
+                    showCloseButton: true,
+                    showConfirmButton: false,
+                    heightAuto: true,
+                    width: '100%',
+                    background: '#f3f3f3',
+                    backdrop: `rgb(0 0 0 / 60%)`
+                });
+                break;
+            case 7:
+                // window.open('docs/ION_Coaching.pdf');
+                // window.open('http://docs.google.com/viewer?url=' + laURL + 'docs/ION_Coaching.pdf');
+                Swal.fire({
+                    title: 'ION Video 4 – Store Summary Page',
+                    html: '<video id="vid1" width="100%" class="video" autoplay playsinline controls="true" controlsList="nodownload">' +
+                    '<source src="docs/IONVideo4.mp4" type="video/mp4">' +
+                    '</video>',
+                    showCloseButton: true,
+                    showConfirmButton: false,
+                    heightAuto: true,
+                    width: '100%',
+                    background: '#f3f3f3',
+                    backdrop: `rgb(0 0 0 / 60%)`
+                });
+                break;
+            case 8:
+                // window.open('docs/ION_Coaching.pdf');
+                // window.open('http://docs.google.com/viewer?url=' + laURL + 'docs/ION_Coaching.pdf');
+                Swal.fire({
+                    title: 'ION Video 5 – Store Summary Page',
+                    html: '<video id="vid5" width="100%" class="video" autoplay playsinline controls="true" controlsList="nodownload">' +
+                    '<source src="docs/IONVideo5.mp4" type="video/mp4">' +
+                    '</video>',
+                    showCloseButton: true,
+                    showConfirmButton: false,
+                    heightAuto: true,
+                    width: '100%',
+                    background: '#f3f3f3',
+                    backdrop: `rgb(0 0 0 / 60%)`
+                });
+                break;
+            case 9:
+                // window.open('docs/ION_Coaching.pdf');
+                // window.open('http://docs.google.com/viewer?url=' + laURL + 'docs/ION_Coaching.pdf');
+                Swal.fire({
+                    title: 'ION Video 6 – Store Summary Page',
+                    html: '<video id="vid6" width="100%" class="video" autoplay playsinline controls="true" controlsList="nodownload">' +
+                    '<source src="docs/IONVideo6.mp4" type="video/mp4">' +
+                    '</video>',
+                    showCloseButton: true,
+                    showConfirmButton: false,
+                    heightAuto: true,
+                    width: '100%',
+                    background: '#f3f3f3',
+                    backdrop: `rgb(0 0 0 / 60%)`
+                });
+                break;
+            case 10:
+                // window.open('docs/ION_Coaching.pdf');
+                // window.open('http://docs.google.com/viewer?url=' + laURL + 'docs/ION_Coaching.pdf');
+                Swal.fire({
+                    title: 'ION Video 7 – Product Summary Page',
+                    html: '<video id="vid7" width="100%" class="video" autoplay playsinline controls="true" controlsList="nodownload">' +
+                    '<source src="docs/IONVideo7.mp4" type="video/mp4">' +
+                    '</video>',
+                    showCloseButton: true,
+                    showConfirmButton: false,
+                    heightAuto: true,
+                    width: '100%',
+                    background: '#f3f3f3',
+                    backdrop: `rgb(0 0 0 / 60%)`
+                });
+                break;
+            case 11:
+                // window.open('docs/ION_Coaching.pdf');
+                // window.open('http://docs.google.com/viewer?url=' + laURL + 'docs/ION_Coaching.pdf');
+                Swal.fire({
+                    title: 'ION Video 8 – Product Summary Page',
+                    html: '<video id="vid1" width="100%" class="video" autoplay playsinline controls="true" controlsList="nodownload">' +
+                    '<source src="docs/IONVideo8.mp4" type="video/mp4">' +
+                    '</video>',
+                    showCloseButton: true,
+                    showConfirmButton: false,
+                    heightAuto: true,
+                    width: '100%',
+                    background: '#f3f3f3',
+                    backdrop: `rgb(0 0 0 / 60%)`
+                });
+                break;
+            case 12:
+                // window.open('docs/ION_Coaching.pdf');
+                // window.open('http://docs.google.com/viewer?url=' + laURL + 'docs/ION_Coaching.pdf');
+                Swal.fire({
+                    title: 'ION Video 9 – Product Summary Page',
+                    html: '<video id="vid9" width="100%" class="video" autoplay playsinline controls="true" controlsList="nodownload">' +
+                    '<source src="docs/IONVideo9.mp4" type="video/mp4">' +
+                    '</video>',
+                    showCloseButton: true,
+                    showConfirmButton: false,
+                    heightAuto: true,
+                    width: '100%',
+                    background: '#f3f3f3',
+                    backdrop: `rgb(0 0 0 / 60%)`
+                });
+                break;
+            case 13:
             //     // window.open('docs/ION_SetUp.pdf');
             //     // window.open('http://docs.google.com/viewer?url=' + laURL + 'docs/ION_SetUp.pdf');
-            //     Swal.fire({
-            //         title: 'ION SetUp',
-            //         html: '<iframe src="./docs/ION_SetUp.pdf#toolbar=0" type="application/pdf" style="min-height:80vh; width:100%"></iframe>',
-            //         showCloseButton: true,
-            //         showConfirmButton: false,
-            //         heightAuto: true,
-            //         width: '100%',
-            //         background: '#f3f3f3',
-            //         backdrop: `rgb(0 0 0 / 60%)`
-            //     });
-            //     break;
-            case 5:
+                Swal.fire({
+                    title: 'Classoom Day',
+                    html: '<iframe src="./docs/Classroom_Day_Tools.pdf#toolbar=0" type="application/pdf" style="min-height:80vh; width:100%"></iframe>',
+                    showCloseButton: true,
+                    showConfirmButton: false,
+                    heightAuto: true,
+                    width: '100%',
+                    background: '#f3f3f3',
+                    backdrop: `rgb(0 0 0 / 60%)`
+                });
+                break;
+            case 14:
                 Swal.fire({
                     title: 'Merchandising Arnold',
-                    html: '<video id="vid1" width="100%" class="video" autoplay playsinline controls="true" controlsList="nodownload">' +
+                    html: '<video id="vid10" width="100%" class="video" autoplay playsinline controls="true" controlsList="nodownload">' +
                         '<source src="docs/Merchandising_Arnold.mp4" type="video/mp4">' +
                         '</video>',
                     showCloseButton: true,
@@ -141,10 +288,10 @@ function activaSeccionTools() {
                 }, 2000);
 
                 break;
-            case 6:
+            case 15:
                 Swal.fire({
                     title: 'Merchandising BallPark',
-                    html: '<video id="vid2" width="100%" class="video" autoplay playsinline controls="true" controlsList="nodownload">' +
+                    html: '<video id="vid11" width="100%" class="video" autoplay playsinline controls="true" controlsList="nodownload">' +
                         '<source src="docs/Merchandising_BallPark.mp4" type="video/mp4">' +
                         '</video>',
                     showCloseButton: true,
@@ -176,10 +323,10 @@ function activaSeccionTools() {
                     }
                 }, 2000);
                 break;
-            case 7:
+            case 16:
                 Swal.fire({
                     title: 'Merchandising Barcel-Takis',
-                    html: '<video id="vid3" width="100%" class="video" autoplay playsinline controls="true" controlsList="nodownload">' +
+                    html: '<video id="vid12" width="100%" class="video" autoplay playsinline controls="true" controlsList="nodownload">' +
                         '<source src="docs/Merchandising_BarcelTakis.mp4" type="video/mp4">' +
                         '</video>',
                     showCloseButton: true,
@@ -211,7 +358,7 @@ function activaSeccionTools() {
                     }
                 }, 2000);
                 break;
-            case 8:
+            case 17:
                 Swal.fire({
                     title: 'Merchandising Best Practices',
                     html: '<video id="vid4" width="100%" class="video" autoplay playsinline controls="true" controlsList="nodownload">' +
@@ -246,7 +393,7 @@ function activaSeccionTools() {
                     }
                 }, 2000);
                 break;
-            case 9:
+            case 18:
                 Swal.fire({
                     title: 'Merchandising Bimbo-Marinela',
                     html: '<video id="vid5" width="100%" class="video" autoplay playsinline controls="true" controlsList="nodownload">' +
@@ -281,7 +428,7 @@ function activaSeccionTools() {
                     }
                 }, 2000);
                 break;
-            case 10:
+            case 19:
                 Swal.fire({
                     title: 'Merchandising Brownberry',
                     html: '<video id="vid6" width="100%" class="video" autoplay playsinline controls="true" controlsList="nodownload">' +
@@ -316,7 +463,7 @@ function activaSeccionTools() {
                     }
                 }, 2000);
                 break;
-            case 11:
+            case 20:
                 Swal.fire({
                     title: 'Merchandising Entenmanns',
                     html: '<video id="vid7" width="100%" class="video" autoplay playsinline controls="true" controlsList="nodownload">' +
@@ -351,7 +498,7 @@ function activaSeccionTools() {
                     }
                 }, 2000);
                 break;
-            case 12:
+            case 21:
                 Swal.fire({
                     title: 'Merchandising SaraLee',
                     html: '<video id="vid8" width="100%" class="video" autoplay playsinline controls="true" controlsList="nodownload">' +
@@ -386,7 +533,7 @@ function activaSeccionTools() {
                     }
                 }, 2000);
                 break;
-            case 13:
+            case 22:
                 Swal.fire({
                     title: 'Merchandising Thomas',
                     html: '<video id="vid9" width="100%" class="video" autoplay playsinline controls="true" controlsList="nodownload">' +
@@ -421,7 +568,7 @@ function activaSeccionTools() {
                     }
                 }, 2000);
                 break;
-            case 14:
+            case 23:
                 // window.open('docs/Merchandising_Thomas.mov');
                 Swal.fire({
                     title: 'Merchandising Oroweat',
@@ -457,7 +604,7 @@ function activaSeccionTools() {
                     }
                 }, 2000);
                 break;
-            case 15:
+            case 24:
                 // window.open('docs/Safe_Carry_Over_(SCO).pdf');
                 // window.open('http://docs.google.com/viewer?url=' + laURL + 'docs/Safe_Carry_Over_(SCO).pdf');
                 Swal.fire({
@@ -471,7 +618,7 @@ function activaSeccionTools() {
                     backdrop: `rgb(0 0 0 / 60%)`
                 });
                 break;
-            case 16:
+            case 25:
                 // window.open('docs/Scan_Based_Trading_(SBT).pdf');
                 // window.open('http://docs.google.com/viewer?url=' + laURL + 'docs/Scan_Based_Trading_(SBT).pdf');
                 Swal.fire({
@@ -485,7 +632,7 @@ function activaSeccionTools() {
                     backdrop: `rgb(0 0 0 / 60%)`
                 });
                 break;
-            case 17:
+            case 26:
                 // window.open('docs/SETTLEMENT.pdf');
                 // window.open('http://docs.google.com/viewer?url=' + laURL + 'docs/SETTLEMENT.pdf');
                 Swal.fire({
