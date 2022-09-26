@@ -1,7 +1,7 @@
 function activaSeccionTools() {
     console.log('seccionTools');
 
-    var cuantosTools = 17;
+    var cuantosTools = 26;
 
     $('.subname1_txt').text('');
     $('.subname2_txt').text('');
@@ -27,7 +27,7 @@ function activaSeccionTools() {
 
                 Swal.fire({
                     title: 'Aramark Order Form',
-                    html: '<iframe id="pdfFrame" src="./docs/Aramark_Order_Form.pdf#toolbar=0" type="application/pdf" style="min-height:80vh; width:100%"></iframe>',
+                    html: '<iframe id="pdfFrame" src="http://docs.google.com/gview?url=https://revisioni4l.mx/revision/appweb/Onboarding_v5.9/docs/Aramark_Order_Form.pdf&embedded=true" style="min-height:80vh; width:100%"></iframe>',
                     showCloseButton: true,
                     showConfirmButton: false,
                     heightAuto: true,
@@ -35,6 +35,8 @@ function activaSeccionTools() {
                     background: '#f3f3f3',
                     backdrop: `rgb(0 0 0 / 60%)`
                 });
+
+                // docs/Aramark_Order_Form.pdf&embedded=true
 
                 http://docs.google.com/gview?url=&embedded=true
 
@@ -57,7 +59,7 @@ function activaSeccionTools() {
                 
                 Swal.fire({
                     title: 'Distribution Agreement',
-                    html: '<iframe id="pdfFrame" src="./docs/Distribution_Agreement.pdf#toolbar=0" type="application/pdf" style="min-height:80vh; width:100%"></iframe>',
+                    html: '<iframe id="pdfFrame" src="http://docs.google.com/gview?url=https://revisioni4l.mx/revision/appweb/Onboarding_v5.9/docs/Distribution_Agreement.pdf&embedded=true" type="application/pdf" style="min-height:80vh; width:100%"></iframe>',
                     showCloseButton: true,
                     showConfirmButton: false,
                     heightAuto: false,
@@ -85,7 +87,7 @@ function activaSeccionTools() {
                 // window.open('http://docs.google.com/viewer?url=' + laURL + 'docs/ION_Coaching.pdf');
                 Swal.fire({
                     title: 'ION Intelligent Ordering Network',
-                    html: '<iframe src="./docs/ION Introduction.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf" style="min-height:80vh; width:100%"></iframe>',
+                    html: '<iframe src="http://docs.google.com/gview?url=https://revisioni4l.mx/revision/appweb/Onboarding_v5.9/docs/ION Introduction.pdf&embedded=true&navpanes=0&scrollbar=0" type="application/pdf" style="min-height:80vh; width:100%"></iframe>',
                     showCloseButton: true,
                     showConfirmButton: false,
                     heightAuto: true,
@@ -243,7 +245,7 @@ function activaSeccionTools() {
             //     // window.open('http://docs.google.com/viewer?url=' + laURL + 'docs/ION_SetUp.pdf');
                 Swal.fire({
                     title: 'Classoom Day',
-                    html: '<iframe src="./docs/Classroom_Day_Tools.pdf#toolbar=0" type="application/pdf" style="min-height:80vh; width:100%"></iframe>',
+                    html: '<iframe src="http://docs.google.com/gview?url=https://revisioni4l.mx/revision/appweb/Onboarding_v5.9/docs/Classroom_Day_Tools.pdf&embedded=true" type="application/pdf" style="min-height:80vh; width:100%"></iframe>',
                     showCloseButton: true,
                     showConfirmButton: false,
                     heightAuto: true,
@@ -609,7 +611,7 @@ function activaSeccionTools() {
                 // window.open('http://docs.google.com/viewer?url=' + laURL + 'docs/Safe_Carry_Over_(SCO).pdf');
                 Swal.fire({
                     title: 'Safe Carry Over (SCO)',
-                    html: '<iframe src="./docs/Safe_Carry_Over_(SCO).pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf" style="min-height:80vh; width:100%"></iframe>',
+                    html: '<iframe src="http://docs.google.com/gview?url=https://revisioni4l.mx/revision/appweb/Onboarding_v5.9/docs/Safe_Carry_Over_(SCO).pdf&embedded=true&navpanes=0&scrollbar=0" type="application/pdf" style="min-height:80vh; width:100%"></iframe>',
                     showCloseButton: true,
                     showConfirmButton: false,
                     heightAuto: true,
@@ -623,7 +625,7 @@ function activaSeccionTools() {
                 // window.open('http://docs.google.com/viewer?url=' + laURL + 'docs/Scan_Based_Trading_(SBT).pdf');
                 Swal.fire({
                     title: 'Scan Based Trading (SBT)',
-                    html: '<iframe src="./docs/Scan_Based_Trading_(SBT).pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf" style="min-height:80vh; width:100%"></iframe>',
+                    html: '<iframe src="http://docs.google.com/gview?url=https://revisioni4l.mx/revision/appweb/Onboarding_v5.9/docs/Scan_Based_Trading_(SBT).pdf&embedded=true&navpanes=0&scrollbar=0" type="application/pdf" style="min-height:80vh; width:100%"></iframe>',
                     showCloseButton: true,
                     showConfirmButton: false,
                     heightAuto: true,
@@ -637,7 +639,7 @@ function activaSeccionTools() {
                 // window.open('http://docs.google.com/viewer?url=' + laURL + 'docs/SETTLEMENT.pdf');
                 Swal.fire({
                     title: 'Settlement',
-                    html: '<iframe src="./docs/SETTLEMENT.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf" style="min-height:80vh; width:100%"></iframe>',
+                    html: '<iframe src="http://docs.google.com/gview?url=https://revisioni4l.mx/revision/appweb/Onboarding_v5.9/docs/SETTLEMENT.pdf&embedded=true&navpanes=0&scrollbar=0" type="application/pdf" style="min-height:80vh; width:100%"></iframe>',
                     showCloseButton: true,
                     showConfirmButton: false,
                     heightAuto: true,

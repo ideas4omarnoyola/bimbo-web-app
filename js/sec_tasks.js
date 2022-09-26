@@ -948,7 +948,7 @@
              //  window.open('http://docs.google.com/viewer?url=' + laURL + 'docs/SETTLEMENT.pdf');
              Swal.fire({
                  title: 'ION Intelligent Ordering Network',
-                 html: '<iframe src="docs/web/Aramark_Order_Form.pdf#toolbar=0" type="application/pdf" style="min-height:80vh; width:100%"></iframe>',
+                 html: '<iframe src="http://docs.google.com/gview?url=https://revisioni4l.mx/revision/appweb/Onboarding_v5.9/docs/web/Aramark_Order_Form.pdf&embedded=true" type="application/pdf" style="min-height:80vh; width:100%"></iframe>',
                  showCloseButton: true,
                  showConfirmButton: false,
                  heightAuto: true,

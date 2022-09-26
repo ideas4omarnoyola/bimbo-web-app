@@ -1076,6 +1076,11 @@ td:first-child {
     transition: width 1s;
 }
 
+iframe{
+    width: 100%;
+    height: 80vh;
+}
+
 
 /* PC */
 @media only screen and (max-width: 1200px) {
