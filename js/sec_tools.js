@@ -1,7 +1,7 @@
 function activaSeccionTools() {
     console.log('seccionTools');
 
-    var cuantosTools = 26;
+    var cuantosTools = 27;
 
     $('.subname1_txt').text('');
     $('.subname2_txt').text('');
@@ -26,8 +26,8 @@ function activaSeccionTools() {
 
 
                 Swal.fire({
-                    title: 'Aramark Order Form',
-                    html: '<iframe id="pdfFrame" src="http://docs.google.com/gview?url=https://revisioni4l.mx/revision/appweb/Onboarding_v5.9/docs/Aramark_Order_Form.pdf&embedded=true" style="min-height:80vh; width:100%"></iframe>',
+                    title: 'Aramark Clothing Options & Order Form ',
+                    html: '<iframe id="pdfFrame" src="http://docs.google.com/gview?url=https://revisioni4l.mx/revision/appweb/Onboarding_v5.9/docs/Aramark_Clothing_Options_and_Order_Form.pdf&embedded=true" style="min-height:80vh; width:100%"></iframe>',
                     showCloseButton: true,
                     showConfirmButton: false,
                     heightAuto: true,
@@ -58,8 +58,8 @@ function activaSeccionTools() {
                 // window.open('http://docs.google.com/viewer?url=' + laURL + 'docs/Handheld_(HHC).pdf');
                 
                 Swal.fire({
-                    title: 'Distribution Agreement',
-                    html: '<iframe id="pdfFrame" src="http://docs.google.com/gview?url=https://revisioni4l.mx/revision/appweb/Onboarding_v5.9/docs/Distribution_Agreement.pdf&embedded=true" type="application/pdf" style="min-height:80vh; width:100%"></iframe>',
+                    title: 'Distribution Agreement 4, 6, 8',
+                    html: '<iframe id="pdfFrame" src="http://docs.google.com/gview?url=https://revisioni4l.mx/revision/appweb/Onboarding_v5.9/docs/Distribution_Agreement468.pdf&embedded=true" type="application/pdf" style="min-height:80vh; width:100%"></iframe>',
                     showCloseButton: true,
                     showConfirmButton: false,
                     heightAuto: false,
@@ -244,8 +244,8 @@ function activaSeccionTools() {
             //     // window.open('docs/ION_SetUp.pdf');
             //     // window.open('http://docs.google.com/viewer?url=' + laURL + 'docs/ION_SetUp.pdf');
                 Swal.fire({
-                    title: 'Classoom Day',
-                    html: '<iframe src="http://docs.google.com/gview?url=https://revisioni4l.mx/revision/appweb/Onboarding_v5.9/docs/Classroom_Day_Tools.pdf&embedded=true" type="application/pdf" style="min-height:80vh; width:100%"></iframe>',
+                    title: 'Classroom Day',
+                    html: '<iframe src="http://docs.google.com/gview?url=https://revisioni4l.mx/revision/appweb/Onboarding_v5.9/docs/Classroom_Day.pdf&embedded=true" type="application/pdf" style="min-height:80vh; width:100%"></iframe>',
                     showCloseButton: true,
                     showConfirmButton: false,
                     heightAuto: true,
@@ -624,6 +624,20 @@ function activaSeccionTools() {
                 // window.open('docs/Scan_Based_Trading_(SBT).pdf');
                 // window.open('http://docs.google.com/viewer?url=' + laURL + 'docs/Scan_Based_Trading_(SBT).pdf');
                 Swal.fire({
+                    title: 'Scan Based Trading (SBT) Introduction',
+                    html: '<iframe src="http://docs.google.com/gview?url=https://revisioni4l.mx/revision/appweb/Onboarding_v5.9/docs/Scan_Based_Trading_(SBT)_Introduction.pdf&embedded=true&navpanes=0&scrollbar=0" type="application/pdf" style="min-height:80vh; width:100%"></iframe>',
+                    showCloseButton: true,
+                    showConfirmButton: false,
+                    heightAuto: true,
+                    width: '100%',
+                    background: '#f3f3f3',
+                    backdrop: `rgb(0 0 0 / 60%)`
+                });
+                break;
+            case 26:
+                // window.open('docs/Scan_Based_Trading_(SBT).pdf');
+                // window.open('http://docs.google.com/viewer?url=' + laURL + 'docs/Scan_Based_Trading_(SBT).pdf');
+                Swal.fire({
                     title: 'Scan Based Trading (SBT)',
                     html: '<iframe src="http://docs.google.com/gview?url=https://revisioni4l.mx/revision/appweb/Onboarding_v5.9/docs/Scan_Based_Trading_(SBT).pdf&embedded=true&navpanes=0&scrollbar=0" type="application/pdf" style="min-height:80vh; width:100%"></iframe>',
                     showCloseButton: true,
@@ -634,12 +648,12 @@ function activaSeccionTools() {
                     backdrop: `rgb(0 0 0 / 60%)`
                 });
                 break;
-            case 26:
+            case 27:
                 // window.open('docs/SETTLEMENT.pdf');
                 // window.open('http://docs.google.com/viewer?url=' + laURL + 'docs/SETTLEMENT.pdf');
                 Swal.fire({
                     title: 'Settlement',
-                    html: '<iframe src="http://docs.google.com/gview?url=https://revisioni4l.mx/revision/appweb/Onboarding_v5.9/docs/SETTLEMENT.pdf&embedded=true&navpanes=0&scrollbar=0" type="application/pdf" style="min-height:80vh; width:100%"></iframe>',
+                    html: '<iframe src="http://docs.google.com/gview?url=https://revisioni4l.mx/revision/appweb/Onboarding_v5.9/docs/Settlement.pdf&embedded=true&navpanes=0&scrollbar=0" type="application/pdf" style="min-height:80vh; width:100%"></iframe>',
                     showCloseButton: true,
                     showConfirmButton: false,
                     heightAuto: true,
