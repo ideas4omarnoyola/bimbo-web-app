@@ -901,20 +901,6 @@
                  backdrop: `rgb(0 0 0 / 60%)`
              });
              break;
-         case "Scan_Based_Trading_(SBT)":
-             // window.open('docs/Scan_Based_Trading_(SBT).pdf');
-             //  window.open('http://docs.google.com/viewer?url=' + laURL + 'docs/Scan_Based_Trading_(SBT).pdf');
-             Swal.fire({
-                 title: 'ION Intelligent Ordering Network',
-                 html: '<iframe src="http://docs.google.com/gview?url=https://revisioni4l.mx/revision/appweb/Onboarding_v5.9/docs/web/Scan_Based_Trading_(SBT).pdf&embedded=true" type="application/pdf" style="min-height:80vh; width:100%"></iframe>',
-                 showCloseButton: true,
-                 showConfirmButton: false,
-                 heightAuto: true,
-                 width: '100%',
-                 background: '#f3f3f3',
-                 backdrop: `rgb(0 0 0 / 60%)`
-             });
-             break;
          case "Safe_Carry_Over_(SCO)":
              // window.open('docs/Safe_Carry_Over_(SCO).pdf');
              //  window.open('http://docs.google.com/viewer?url=' + laURL + 'docs/Safe_Carry_Over_(SCO).pdf');
@@ -957,6 +943,98 @@
                  backdrop: `rgb(0 0 0 / 60%)`
              });
              break;
+         case "SBT Introduction":
+             // window.open('docs/SETTLEMENT.pdf');
+             //  window.open('http://docs.google.com/viewer?url=' + laURL + 'docs/SETTLEMENT.pdf');
+             Swal.fire({
+                 title: 'SBT Introduction',
+                 html: '<iframe src="http://docs.google.com/gview?url=https://revisioni4l.mx/revision/appweb/Onboarding_v5.9/docs/web/Scan_Based_Trading_(SBT)_Introduction.pdf&embedded=true" type="application/pdf" style="min-height:80vh; width:100%"></iframe>',
+                 showCloseButton: true,
+                 showConfirmButton: false,
+                 heightAuto: true,
+                 width: '100%',
+                 background: '#f3f3f3',
+                 backdrop: `rgb(0 0 0 / 60%)`
+             });
+             break;
+         case "Scan Based Trading SBT":
+             // window.open('docs/SETTLEMENT.pdf');
+             //  window.open('http://docs.google.com/viewer?url=' + laURL + 'docs/SETTLEMENT.pdf');
+             Swal.fire({
+                 title: 'Scan Based Trading SBT',
+                 html: '<iframe src="http://docs.google.com/gview?url=https://revisioni4l.mx/revision/appweb/Onboarding_v5.9/docs/web/Scan_Based_Trading_(SBT).pdf&embedded=true" type="application/pdf" style="min-height:80vh; width:100%"></iframe>',
+                 showCloseButton: true,
+                 showConfirmButton: false,
+                 heightAuto: true,
+                 width: '100%',
+                 background: '#f3f3f3',
+                 backdrop: `rgb(0 0 0 / 60%)`
+             });
+             break;
+         case "ION Video 1 – Route Summary Page Overview":
+             // window.open('docs/SETTLEMENT.pdf');
+             //  window.open('http://docs.google.com/viewer?url=' + laURL + 'docs/SETTLEMENT.pdf');
+             Swal.fire({
+                title: 'ION Video 1 – Route Summary Page Overview',
+                html: '<video id="vid1" width="100%" class="video" autoplay playsinline controls="true" controlsList="nodownload">' +
+                '<source src="docs/IONVideo1.mp4" type="video/mp4">' +
+                '</video>',
+                showCloseButton: true,
+                showConfirmButton: false,
+                heightAuto: true,
+                width: '100%',
+                background: '#f3f3f3',
+                backdrop: `rgb(0 0 0 / 60%)`
+            });
+            break;
+         case "ION Video 9 – How to Make Order Adjustment within Product Summary Page":
+             // window.open('docs/SETTLEMENT.pdf');
+             //  window.open('http://docs.google.com/viewer?url=' + laURL + 'docs/SETTLEMENT.pdf');
+             Swal.fire({
+                title: 'ION Video 9 – How to Make Order Adjustment within Product Summary Page',
+                html: '<video id="vid9" width="100%" class="video" autoplay playsinline controls="true" controlsList="nodownload">' +
+                '<source src="docs/IONVideo9.mp4" type="video/mp4">' +
+                '</video>',
+                showCloseButton: true,
+                showConfirmButton: false,
+                heightAuto: true,
+                width: '100%',
+                background: '#f3f3f3',
+                backdrop: `rgb(0 0 0 / 60%)`
+            });
+            break;
+         case "ION Video 6 – Customer Service Pattern within Store Summary Page":
+             // window.open('docs/SETTLEMENT.pdf');
+             //  window.open('http://docs.google.com/viewer?url=' + laURL + 'docs/SETTLEMENT.pdf');
+             Swal.fire({
+                title: 'ION Video 6 – Customer Service Pattern within Store Summary Page',
+                html: '<video id="vid6" width="100%" class="video" autoplay playsinline controls="true" controlsList="nodownload">' +
+                '<source src="docs/IONVideo6.mp4" type="video/mp4">' +
+                '</video>',
+                showCloseButton: true,
+                showConfirmButton: false,
+                heightAuto: true,
+                width: '100%',
+                background: '#f3f3f3',
+                backdrop: `rgb(0 0 0 / 60%)`
+            });
+            break;
+         case "ION Video 5 – Promotion Tab & New Items within Store Summary Page":
+             // window.open('docs/SETTLEMENT.pdf');
+             //  window.open('http://docs.google.com/viewer?url=' + laURL + 'docs/SETTLEMENT.pdf');
+             Swal.fire({
+                title: 'ION Video 5 – Promotion Tab & New Items within Store Summary Page',
+                html: '<video id="vid6" width="100%" class="video" autoplay playsinline controls="true" controlsList="nodownload">' +
+                '<source src="docs/IONVideo5.mp4" type="video/mp4">' +
+                '</video>',
+                showCloseButton: true,
+                showConfirmButton: false,
+                heightAuto: true,
+                width: '100%',
+                background: '#f3f3f3',
+                backdrop: `rgb(0 0 0 / 60%)`
+            });
+            break;
          case "http":
              // window.open('docs/SETTLEMENT.pdf');
              window.open(cualLink);
