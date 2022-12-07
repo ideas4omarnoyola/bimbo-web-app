@@ -116,7 +116,7 @@ function activaSeccionTools() {
                 // window.open('docs/ION_Coaching.pdf');
                 // window.open('http://docs.google.com/viewer?url=' + laURL + 'docs/ION_Coaching.pdf');
                 Swal.fire({
-                    title: 'ION Video 2 –  Route Summary Page',
+                    title: 'ION Video 2 – Product & Store Tabs within Route Summary Page',
                     html: '<video id="vid2" width="100%" class="video" autoplay playsinline controls="true" controlsList="nodownload">' +
                     '<source src="docs/IONVideo2.mp4" type="video/mp4">' +
                     '</video>',
@@ -132,7 +132,7 @@ function activaSeccionTools() {
                 // window.open('docs/ION_Coaching.pdf');
                 // window.open('http://docs.google.com/viewer?url=' + laURL + 'docs/ION_Coaching.pdf');
                 Swal.fire({
-                    title: 'ION Video 3 – Store Summary Page',
+                    title: 'ION Video 3 – Customer Information, Messaging, & Adding Product within Store Summary Page',
                     html: '<video id="vid3" width="100%" class="video" autoplay playsinline controls="true" controlsList="nodownload">' +
                     '<source src="docs/IONVideo3.mp4" type="video/mp4">' +
                     '</video>',
@@ -148,7 +148,7 @@ function activaSeccionTools() {
                 // window.open('docs/ION_Coaching.pdf');
                 // window.open('http://docs.google.com/viewer?url=' + laURL + 'docs/ION_Coaching.pdf');
                 Swal.fire({
-                    title: 'ION Video 4 – Store Summary Page',
+                    title: 'ION Video 4 – Product Filters & Buckets within Store Summary Page',
                     html: '<video id="vid1" width="100%" class="video" autoplay playsinline controls="true" controlsList="nodownload">' +
                     '<source src="docs/IONVideo4.mp4" type="video/mp4">' +
                     '</video>',
@@ -164,7 +164,7 @@ function activaSeccionTools() {
                 // window.open('docs/ION_Coaching.pdf');
                 // window.open('http://docs.google.com/viewer?url=' + laURL + 'docs/ION_Coaching.pdf');
                 Swal.fire({
-                    title: 'ION Video 5 – Store Summary Page',
+                    title: 'ION Video 5 – Promotion Tab & New Items within Store Summary Page',
                     html: '<video id="vid5" width="100%" class="video" autoplay playsinline controls="true" controlsList="nodownload">' +
                     '<source src="docs/IONVideo5.mp4" type="video/mp4">' +
                     '</video>',
@@ -180,7 +180,7 @@ function activaSeccionTools() {
                 // window.open('docs/ION_Coaching.pdf');
                 // window.open('http://docs.google.com/viewer?url=' + laURL + 'docs/ION_Coaching.pdf');
                 Swal.fire({
-                    title: 'ION Video 6 – Store Summary Page',
+                    title: 'ION Video 6 – Customer Service Pattern within Store Summary Page',
                     html: '<video id="vid6" width="100%" class="video" autoplay playsinline controls="true" controlsList="nodownload">' +
                     '<source src="docs/IONVideo6.mp4" type="video/mp4">' +
                     '</video>',
@@ -196,7 +196,7 @@ function activaSeccionTools() {
                 // window.open('docs/ION_Coaching.pdf');
                 // window.open('http://docs.google.com/viewer?url=' + laURL + 'docs/ION_Coaching.pdf');
                 Swal.fire({
-                    title: 'ION Video 7 – Product Summary Page',
+                    title: 'ION Video 7 – Product Information within Product Summary Page',
                     html: '<video id="vid7" width="100%" class="video" autoplay playsinline controls="true" controlsList="nodownload">' +
                     '<source src="docs/IONVideo7.mp4" type="video/mp4">' +
                     '</video>',
@@ -212,7 +212,7 @@ function activaSeccionTools() {
                 // window.open('docs/ION_Coaching.pdf');
                 // window.open('http://docs.google.com/viewer?url=' + laURL + 'docs/ION_Coaching.pdf');
                 Swal.fire({
-                    title: 'ION Video 8 – Product Summary Page',
+                    title: 'ION Video 8 – Weekly, Monthly, Yearly, SCO Tabs within Product Summary Page',
                     html: '<video id="vid1" width="100%" class="video" autoplay playsinline controls="true" controlsList="nodownload">' +
                     '<source src="docs/IONVideo8.mp4" type="video/mp4">' +
                     '</video>',
@@ -228,7 +228,7 @@ function activaSeccionTools() {
                 // window.open('docs/ION_Coaching.pdf');
                 // window.open('http://docs.google.com/viewer?url=' + laURL + 'docs/ION_Coaching.pdf');
                 Swal.fire({
-                    title: 'ION Video 9 – Product Summary Page',
+                    title: 'ION Video 9 – How to Make Order Adjustment within Product Summary Page',
                     html: '<video id="vid9" width="100%" class="video" autoplay playsinline controls="true" controlsList="nodownload">' +
                     '<source src="docs/IONVideo9.mp4" type="video/mp4">' +
                     '</video>',
