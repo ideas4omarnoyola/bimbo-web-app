@@ -865,7 +865,7 @@
              //  window.open('http://docs.google.com/viewer?url=' + laURL + 'docs/Distribution_Agreement.pdf');
              Swal.fire({
                  title: 'Distribution Agreement',
-                 html: '<iframe src="http://docs.google.com/gview?url=https://revisioni4l.mx/revision/appweb/Onboarding_v6/docs/web/Distribution_Agreement468.pdf&embedded=true" type="application/pdf" style="min-height:80vh; width:100%"></iframe>',
+                 html: '<iframe src="http://docs.google.com/gview?url=https://revisioni4l.mx/revision/appweb/Onboarding_v7/docs/web/Distribution_Agreement468.pdf&embedded=true" type="application/pdf" style="min-height:80vh; width:100%"></iframe>',
                  showCloseButton: true,
                  showConfirmButton: false,
                  heightAuto: true,
@@ -879,7 +879,7 @@
              //  window.open('http://docs.google.com/viewer?url=' + laURL + 'docs/ION_SetUp.pdf');
              Swal.fire({
                  title: 'Classroom Day',
-                 html: '<iframe src="http://docs.google.com/gview?url=https://revisioni4l.mx/revision/appweb/Onboarding_v6/docs/web/Classroom_Day.pdf&embedded=true" type="application/pdf" style="min-height:80vh; width:100%"></iframe>',
+                 html: '<iframe src="http://docs.google.com/gview?url=https://revisioni4l.mx/revision/appweb/Onboarding_v7/docs/web/Classroom_Day.pdf&embedded=true" type="application/pdf" style="min-height:80vh; width:100%"></iframe>',
                  showCloseButton: true,
                  showConfirmButton: false,
                  heightAuto: true,
@@ -892,7 +892,7 @@
              //  window.open('http://docs.google.com/viewer?url=' + laURL + 'docs/Handheld_(HHC).pdf');
              Swal.fire({
                  title: 'Handheld (HHC)',
-                 html: '<iframe src="http://docs.google.com/gview?url=https://revisioni4l.mx/revision/appweb/Onboarding_v6/docs/web/Handheld_(HHC).pdf&embedded=true" type="application/pdf" style="min-height:80vh; width:100%"></iframe>',
+                 html: '<iframe src="http://docs.google.com/gview?url=https://revisioni4l.mx/revision/appweb/Onboarding_v7/docs/web/Handheld_(HHC).pdf&embedded=true" type="application/pdf" style="min-height:80vh; width:100%"></iframe>',
                  showCloseButton: true,
                  showConfirmButton: false,
                  heightAuto: true,
@@ -906,7 +906,7 @@
              //  window.open('http://docs.google.com/viewer?url=' + laURL + 'docs/Safe_Carry_Over_(SCO).pdf');
              Swal.fire({
                  title: 'Safe Carry Over (SCO)',
-                 html: '<iframe src="http://docs.google.com/gview?url=https://revisioni4l.mx/revision/appweb/Onboarding_v6/docs/web/Safe_Carry_Over_(SCO).pdf&embedded=true" style="min-height:80vh; width:100%"></iframe>',
+                 html: '<iframe src="http://docs.google.com/gview?url=https://revisioni4l.mx/revision/appweb/Onboarding_v7/docs/web/Safe_Carry_Over_(SCO).pdf&embedded=true" style="min-height:80vh; width:100%"></iframe>',
                  showCloseButton: true,
                  showConfirmButton: false,
                  heightAuto: true,
@@ -920,7 +920,7 @@
              //  window.open('http://docs.google.com/viewer?url=' + laURL + 'docs/SETTLEMENT.pdf');
              Swal.fire({
                  title: 'Settlement',
-                 html: '<iframe src="http://docs.google.com/gview?url=https://revisioni4l.mx/revision/appweb/Onboarding_v6/docs/web/Settlement.pdf&embedded=true" type="application/pdf" style="min-height:80vh; width:100%"></iframe>',
+                 html: '<iframe src="http://docs.google.com/gview?url=https://revisioni4l.mx/revision/appweb/Onboarding_v7/docs/web/Settlement.pdf&embedded=true" type="application/pdf" style="min-height:80vh; width:100%"></iframe>',
                  showCloseButton: true,
                  showConfirmButton: false,
                  heightAuto: true,
@@ -933,8 +933,8 @@
              // window.open('docs/SETTLEMENT.pdf');
              //  window.open('http://docs.google.com/viewer?url=' + laURL + 'docs/SETTLEMENT.pdf');
              Swal.fire({
-                 title: 'ION Intelligent Ordering Network',
-                 html: '<iframe src="http://docs.google.com/gview?url=https://revisioni4l.mx/revision/appweb/Onboarding_v6/docs/web/Aramark_Clothing_Options_and_Order_Form.pdf&embedded=true" type="application/pdf" style="min-height:80vh; width:100%"></iframe>',
+                 title: 'Aramark Clothing Options & order Form',
+                 html: '<iframe src="http://docs.google.com/gview?url=https://revisioni4l.mx/revision/appweb/Onboarding_v7/docs/web/Aramark_Clothing_Options_and_Order_Form.pdf&embedded=true" type="application/pdf" style="min-height:80vh; width:100%"></iframe>',
                  showCloseButton: true,
                  showConfirmButton: false,
                  heightAuto: true,
@@ -948,7 +948,7 @@
              //  window.open('http://docs.google.com/viewer?url=' + laURL + 'docs/SETTLEMENT.pdf');
              Swal.fire({
                  title: 'SBT Introduction',
-                 html: '<iframe src="http://docs.google.com/gview?url=https://revisioni4l.mx/revision/appweb/Onboarding_v6/docs/web/Scan_Based_Trading_(SBT)_Introduction.pdf&embedded=true" type="application/pdf" style="min-height:80vh; width:100%"></iframe>',
+                 html: '<iframe src="http://docs.google.com/gview?url=https://revisioni4l.mx/revision/appweb/Onboarding_v7/docs/web/Scan_Based_Trading_(SBT)_Introduction.pdf&embedded=true" type="application/pdf" style="min-height:80vh; width:100%"></iframe>',
                  showCloseButton: true,
                  showConfirmButton: false,
                  heightAuto: true,
@@ -962,7 +962,7 @@
              //  window.open('http://docs.google.com/viewer?url=' + laURL + 'docs/SETTLEMENT.pdf');
              Swal.fire({
                  title: 'Scan Based Trading SBT',
-                 html: '<iframe src="http://docs.google.com/gview?url=https://revisioni4l.mx/revision/appweb/Onboarding_v6/docs/web/Scan_Based_Trading_(SBT).pdf&embedded=true" type="application/pdf" style="min-height:80vh; width:100%"></iframe>',
+                 html: '<iframe src="http://docs.google.com/gview?url=https://revisioni4l.mx/revision/appweb/Onboarding_v7/docs/web/Scan_Based_Trading_(SBT).pdf&embedded=true" type="application/pdf" style="min-height:80vh; width:100%"></iframe>',
                  showCloseButton: true,
                  showConfirmButton: false,
                  heightAuto: true,
