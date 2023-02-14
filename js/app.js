@@ -172,9 +172,10 @@ function login(cualUsuario, cualPassword) {
 ///////////////////////////////// fechas ///////////////////////////////////////
 
 function obtenerFecha() {
-    moment.locale('es');
+    moment.locale('en');
     var laFecha = moment().format();
     console.log('laFecha', laFecha);
+    console.log('soy una fecha');
 
     //    var tiempo = moment().format('DDMMYYHHmmss');
     // console.log('tiempo', tiempo);

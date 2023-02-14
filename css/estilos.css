@@ -24,7 +24,7 @@ body {
     margin-bottom: 0px;
 }
 
-.siluetas {
+/* .siluetas {
     height: 400px;
     background-image: url(../img/login_logos.png);
     background-size: 350px;
@@ -33,6 +33,18 @@ body {
     margin: 0 auto;
     width: 100%;
     padding: 0px;
+} */
+
+.siluetas {
+    height: 400px;
+    background-size: 350px;
+    background-repeat: no-repeat;
+    background-position: top;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0px;
+    font-weight: bold;
+    font-size: 24px;
 }
 
 /* navbar */
@@ -60,7 +72,7 @@ body {
     height: 50px;
     /* position: absolute; */
     margin-right: 70px;
-    background-image: url(../img/logo_top.png);
+    /* background-image: url(../img/logo_top.png); */
     background-size: 120px;
     background-repeat: no-repeat;
     background-position: right;
@@ -330,7 +342,7 @@ td:first-child {
 }
 
 @media screen and (max-width: 465px) {
-    .seccion{
+    .seccion {
         padding: 30px 10px;
     }
 }
@@ -346,7 +358,7 @@ td:first-child {
 
 
 @media screen and (max-width: 765px) {
-    .seccion_login{
+    .seccion_login {
         background-image: url(../img/login_cel.png);
     }
 }
@@ -578,7 +590,7 @@ td:first-child {
     box-shadow: rgb(0 0 0 / 24%) 0px 2px 8px;
 }
 
-@media screen and (max-width: 765px){
+@media screen and (max-width: 765px) {
     #divTools {
         width: 80%;
     }
@@ -1076,7 +1088,7 @@ td:first-child {
     transition: width 1s;
 }
 
-iframe{
+iframe {
     width: 100%;
     height: 80vh;
 }
