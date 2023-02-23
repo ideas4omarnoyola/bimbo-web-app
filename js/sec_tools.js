@@ -87,7 +87,7 @@ function activaSeccionTools() {
                 // window.open('http://docs.google.com/viewer?url=' + laURL + 'docs/ION_Coaching.pdf');
                 Swal.fire({
                     title: 'ION Intelligent Ordering Network',
-                    html: '<iframe src="http://docs.google.com/gview?url=https://revisioni4l.mx/revision/appweb/Onboarding_v7/docs/ION Introduction.pdf&embedded=true&navpanes=0&scrollbar=0" type="application/pdf" style="min-height:80vh; width:100%"></iframe>',
+                    html: '<iframe src="http://docs.google.com/gview?url=https://revisioni4l.mx/revision/appweb/Onboarding_v7/docs/ION_Introduction.pdf&embedded=true&navpanes=0&scrollbar=0" type="application/pdf" style="min-height:80vh; width:100%"></iframe>',
                     showCloseButton: true,
                     showConfirmButton: false,
                     heightAuto: true,
