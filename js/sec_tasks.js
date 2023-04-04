@@ -143,10 +143,18 @@
                  if (Object.values(Object.values(Object.values(Object.values(data.weeks['week0' + laSemana].cats))[(laCategoria - 1)].subcats)[(b - 1)].tasks)[(c - 1)][1] != 'all') {
 
                      for (d = 1; d <= Object.values(Object.values(Object.values(Object.values(data.weeks['week0' + laSemana].cats))[(laCategoria - 1)].subcats)[(b - 1)].tasks)[(c - 1)][1]; d++) {
-                         contenidoTasks += '<td style="border-top: solid 0px #ddd;">';
+                         if(c == 11){
+                            contenidoTasks += '<td style="border-top: solid 0px #ddd;">';
+                         contenidoTasks += '<input type="checkbox" id="' + 'laTask_s' + laSemana + '_c' + laCategoria + '_sc' + b + '_t' + c + '_d' + d + '" class="check">';
+                         contenidoTasks += '<label class="label_class" for="' + 'laTask_s' + laSemana + '_c' + laCategoria + '_sc' + b + '_t' + c + '_d' + d + '" data-before="Day ' + (d + 1) + '"></label>';
+                         contenidoTasks += '</td>';
+                         }
+                         else{
+                            contenidoTasks += '<td style="border-top: solid 0px #ddd;">';
                          contenidoTasks += '<input type="checkbox" id="' + 'laTask_s' + laSemana + '_c' + laCategoria + '_sc' + b + '_t' + c + '_d' + d + '" class="check">';
                          contenidoTasks += '<label class="label_class" for="' + 'laTask_s' + laSemana + '_c' + laCategoria + '_sc' + b + '_t' + c + '_d' + d + '" data-before="Day ' + d + '"></label>';
                          contenidoTasks += '</td>';
+                         }
                      }
                  } else {
                      contenidoTasks += '<td style="border-top: solid 0px #ddd;">';
