@@ -143,10 +143,10 @@
                  if (Object.values(Object.values(Object.values(Object.values(data.weeks['week0' + laSemana].cats))[(laCategoria - 1)].subcats)[(b - 1)].tasks)[(c - 1)][1] != 'all') {
 
                      for (d = 1; d <= Object.values(Object.values(Object.values(Object.values(data.weeks['week0' + laSemana].cats))[(laCategoria - 1)].subcats)[(b - 1)].tasks)[(c - 1)][1]; d++) {
-                         if(c == 11){
+                         if(laSemana == 1 && laCategoria == 1 && b == 2 && c == 11){
                             contenidoTasks += '<td style="border-top: solid 0px #ddd;">';
-                         contenidoTasks += '<input type="checkbox" id="' + 'laTask_s' + laSemana + '_c' + laCategoria + '_sc' + b + '_t' + c + '_d' + d + '" class="check">';
-                         contenidoTasks += '<label class="label_class" for="' + 'laTask_s' + laSemana + '_c' + laCategoria + '_sc' + b + '_t' + c + '_d' + d + '" data-before="Day ' + (d + 1) + '"></label>';
+                         contenidoTasks += '<input type="checkbox" id="' + 'laTask_s' + laSemana + '_c' + laCategoria + '_sc' + b + '_t' + c + '_d' + (d + 1) + '" class="check">';
+                         contenidoTasks += '<label class="label_class" for="' + 'laTask_s' + laSemana + '_c' + laCategoria + '_sc' + b + '_t' + c + '_d' + (d + 1) + '" data-before="Day ' + (d + 1) + '"></label>';
                          contenidoTasks += '</td>';
                          }
                          else{
@@ -555,13 +555,24 @@
                  if (Object.values(Object.values(Object.values(Object.values(data.weeks['week0' + laSemana].cats))[(laCategoria - 1)].subcats)[(e - 1)].tasks)[(f - 1)][1] != 'all') {
                      for (g = 1; g <= Object.values(Object.values(Object.values(Object.values(data.weeks['week0' + laSemana].cats))[(laCategoria - 1)].subcats)[(e - 1)].tasks)[(f - 1)][1]; g++) {
                          if (elRol === 'Coach' || elRol === 'Admin') {
-                             $('#laTask_s' + laSemana + '_c' + laCategoria + '_sc' + e + '_t' + f + '_d' + g).parent().css({
-                                 "opacity": "0.5"
-                             })
-                             $('#laTask_s' + laSemana + '_c' + laCategoria + '_sc' + e + '_t' + f + '_d' + g).prop("disabled", "disabled");
-                             $('#laTask_s' + laSemana + '_c' + laCategoria + '_sc' + e + '_t' + f + '_d' + g).next().css({
-                                 "pointer-events": "none"
-                             })
+                             if(laSemana == 1 && laCategoria == 1 && e == 2 && f == 11){
+                                $('#laTask_s' + laSemana + '_c' + laCategoria + '_sc' + e + '_t' + f + '_d' + (g + 1)).parent().css({
+                                    "opacity": "0.5"
+                                })
+                                $('#laTask_s' + laSemana + '_c' + laCategoria + '_sc' + e + '_t' + f + '_d' + (g + 1)).prop("disabled", "disabled");
+                                $('#laTask_s' + laSemana + '_c' + laCategoria + '_sc' + e + '_t' + f + '_d' + (g + 1)).next().css({
+                                    "pointer-events": "none"
+                                })
+                             }
+                             else{
+                                $('#laTask_s' + laSemana + '_c' + laCategoria + '_sc' + e + '_t' + f + '_d' + g).parent().css({
+                                    "opacity": "0.5"
+                                })
+                                $('#laTask_s' + laSemana + '_c' + laCategoria + '_sc' + e + '_t' + f + '_d' + g).prop("disabled", "disabled");
+                                $('#laTask_s' + laSemana + '_c' + laCategoria + '_sc' + e + '_t' + f + '_d' + g).next().css({
+                                    "pointer-events": "none"
+                                })
+                             }
                          }
                      }
                  } else {
