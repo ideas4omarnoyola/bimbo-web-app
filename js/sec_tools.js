@@ -1,7 +1,7 @@
 function activaSeccionTools() {
     console.log('seccionTools');
 
-    var cuantosTools = 27;
+    var cuantosTools = 28;
 
     $('.subname1_txt').text('');
     $('.subname2_txt').text('');
@@ -245,7 +245,7 @@ function activaSeccionTools() {
             //     // window.open('http://docs.google.com/viewer?url=' + laURL + 'docs/ION_SetUp.pdf');
                 Swal.fire({
                     title: 'Classroom Day',
-                    html: '<iframe src="http://docs.google.com/gview?url=https://revisioni4l.mx/revision/appweb/Onboarding_v7/docs/Classroom_Day.pdf&embedded=true" type="application/pdf" style="min-height:80vh; width:100%"></iframe>',
+                    html: '<iframe src="http://docs.google.com/gview?url=https://revisioni4l.mx/revision/appweb/Onboarding_v7/docs/web/Classroom_Day_Agendas.pdf&embedded=true" type="application/pdf" style="min-height:80vh; width:100%"></iframe>',
                     showCloseButton: true,
                     showConfirmButton: false,
                     heightAuto: true,
@@ -654,6 +654,20 @@ function activaSeccionTools() {
                 Swal.fire({
                     title: 'Settlement',
                     html: '<iframe src="http://docs.google.com/gview?url=https://revisioni4l.mx/revision/appweb/Onboarding_v7/docs/web/Settlement.pdf&embedded=true&navpanes=0&scrollbar=0" type="application/pdf" style="min-height:80vh; width:100%"></iframe>',
+                    showCloseButton: true,
+                    showConfirmButton: false,
+                    heightAuto: true,
+                    width: '100%',
+                    background: '#f3f3f3',
+                    backdrop: `rgb(0 0 0 / 60%)`
+                });
+                break;
+            case 28:
+                // window.open('docs/SETTLEMENT.pdf');
+                // window.open('http://docs.google.com/viewer?url=' + laURL + 'docs/SETTLEMENT.pdf');
+                Swal.fire({
+                    title: 'RTM Introduction File',
+                    html: '<iframe src="http://docs.google.com/gview?url=https://revisioni4l.mx/revision/appweb/Onboarding_v7/docs/web/RTM_Introduction_File.pdf&embedded=true&navpanes=0&scrollbar=0" type="application/pdf" style="min-height:80vh; width:100%"></iframe>',
                     showCloseButton: true,
                     showConfirmButton: false,
                     heightAuto: true,

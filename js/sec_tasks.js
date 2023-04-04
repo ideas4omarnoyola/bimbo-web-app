@@ -879,7 +879,7 @@
              //  window.open('http://docs.google.com/viewer?url=' + laURL + 'docs/ION_SetUp.pdf');
              Swal.fire({
                  title: 'Classroom Day',
-                 html: '<iframe src="http://docs.google.com/gview?url=https://revisioni4l.mx/revision/appweb/Onboarding_v7/docs/web/Classroom_Day.pdf&embedded=true" type="application/pdf" style="min-height:80vh; width:100%"></iframe>',
+                 html: '<iframe src="http://docs.google.com/gview?url=https://revisioni4l.mx/revision/appweb/Onboarding_v7/docs/web/Classroom_Day_Agendas.pdf&embedded=true" type="application/pdf" style="min-height:80vh; width:100%"></iframe>',
                  showCloseButton: true,
                  showConfirmButton: false,
                  heightAuto: true,
