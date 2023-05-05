@@ -210,7 +210,23 @@ function descargaReporte() {
                                         contenidoReporte += '<td class="row_start_date">' + moment(laStartDate).format('MMMM Do YYYY') + '</td>';
                                         that['idTablaSemana'] = a;
                                         // console.log('that[idTablaSemana]', that['idTablaSemana']);
-                                        contenidoReporte += '<td>' + dataTasks.weeks['week0' + a].name.replace(/ /g, "&nbsp;") + '</td>';
+
+                                        var laWeek = dataTasks.weeks['week0' + a].name;
+                                        if (laWeek == 'Week 1') {
+                                            laWeek = 'Week_1';
+                                        }
+                                        if (laWeek == 'Week 2') {
+                                            laWeek = 'Week_2';
+                                        }
+                                        if (laWeek == 'Week 3') {
+                                            laWeek = 'Week_3';
+                                        }
+                                        if (laWeek == 'Week 4') {
+                                            laWeek = 'Week_4';
+                                        }
+                                        // console.log('laWeek', laWeek);
+
+                                        contenidoReporte += '<td>' + laWeek + '</td>';
                                         that['idTablaCat'] = b;
                                         // console.log('that[idTablaCat]', that['idTablaCat']);
                                         contenidoReporte += '<td>' + Object.values(dataTasks.weeks['week0' + a].cats)[(b - 1)].name.replace(/ /g, "&nbsp;") + '</td>';
